@@ -1,0 +1,42 @@
+.form-control:focus{
+  box-shadow:none !important;
+}
+
+.wrapper{
+  padding-top:20%;
+}
+
+body{
+ background-image:url("../images/bgQuiz.jpg");
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+.card{
+  border-radius:25px !important;
+}
+
+ul > li{
+ list-style-type:none;
+}
+
+@media (max-width: 576px){
+  body{
+   background-size:100%;
+   background-color:black;
+  }
+
+  .card{
+    width:100% !important;
+  }
+  .btn.btn-danger{
+    width:100% !important;
+    margin-top:2% !important;
+  }
+  .wrapper{
+    padding-top:75%;
+  }
+  .form-control{
+    width:50% !important;
+  }
+}
