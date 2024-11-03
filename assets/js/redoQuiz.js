@@ -1,3 +1,3 @@
 function redoQuiz(){
- window.location.href = "question1.html"
+ window.location.href = "index.html"
 }
