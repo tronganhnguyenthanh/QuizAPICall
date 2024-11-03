@@ -18,7 +18,11 @@ function checkAnswer1(){
   let answer_input = document.querySelector("#qt1").value
   let original_answer = JSON.parse(localStorage.getItem("question1"))
   if(answer_input === ""){
-   alert("Please enter your answer")
+   Swal.fire({
+    html:`
+     <h1 class="text-danger">Please enter your answer</h1>
+    `
+   })
    return;
   }
   if(answer_input.toLowerCase() == original_answer?.toLowerCase()){
