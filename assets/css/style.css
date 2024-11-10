@@ -20,6 +20,10 @@ ul > li{
  list-style-type:none;
 }
 
+.form-control{
+  border:none;
+}
+
 @media (max-width: 576px){
   body{
    background-size:100%;
