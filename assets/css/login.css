@@ -20,3 +20,12 @@ body{
 .form-control:focus{
   box-shadow:none !important;
 }
+
+@media(max-width: 576px){
+  body{
+   background-size:100%;
+   background-repeat:no-repeat;
+   background-color:lightgray;
+   padding-top:70px
+  }
+}
