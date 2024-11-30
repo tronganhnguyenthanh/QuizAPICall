@@ -24,6 +24,14 @@ ul > li{
   border:none;
 }
 
+.text-image{
+  background-image:url("../images/imageText.jpg");
+  background-size:cover;
+  background-clip:text;
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
 @media (max-width: 576px){
   body{
    background-size:100%;
