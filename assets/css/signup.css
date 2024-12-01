@@ -1,0 +1,39 @@
+body{
+ background-image:url("../images/bgQuiz.jpg");
+ background-size:cover; 
+}
+
+.form-signup{
+  width:100%;
+  max-width:350px;
+  padding:15px;
+  margin:auto;
+  border:1px solid lightgray;
+  margin-top:250px;
+  border-top-left-radius:12px;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-top-right-radius:12px;
+  background-color:lightgray;
+}
+
+.text-image{
+  background-image:url("../images/imageText.jpg");
+  background-size:cover;
+  background-clip:text;
+ -webkit-background-clip:text;
+  color:transparent;
+}
+
+.form-control:focus{
+  box-shadow:none !important;
+}
+
+@media(max-width: 576px){
+  body{
+   background-size:100%;
+   background-repeat:no-repeat;
+   background-color:lightgray;
+   padding-top:70px
+  }
+}
