@@ -8,7 +8,10 @@ function checkLoginSystem(){
    if(username === localStorage.getItem("username") && password === localStorage.getItem("password")){
      window.location.href = "index.html"
    }else{
-     document.querySelector("#message").innerHTML = "<p class='text-center text-danger'>Please sign up your new account</p>"
+     document.querySelector("#message").innerHTML = `<a href="register.html" style="text-decoration:none">
+      <p class='text-center text-danger'>Please sign up your new account</p>
+     </a>
+     `
    }
  }
 }
